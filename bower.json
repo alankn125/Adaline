@@ -3,7 +3,7 @@
   "description": "This repo will be used as my self learning project on computer simulation with a focus on biological networks.",
   "main": "server.js",
   "authors": [
-    "alan <alankn125@gmail.com>"
+    "alan"
   ],
   "license": "ISC",
   "homepage": "https://github.com/alankn125/Adaline",
