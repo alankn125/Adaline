@@ -1,10 +1,18 @@
 # Created by .ignore support plugin (hsz.mobi)
 
+logs/*
+!.gitkeep
+node_modules/
+tmp
+.DS_Store
+.idea
+
 # Logs
 logs
 *.log
 npm-debug.log*
 public/libs/
+
 
 
 # Runtime data
