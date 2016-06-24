@@ -14,5 +14,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "requestAnimationFrame": "^0.0.23",
+    "three.js": "^0.78.0"
+  }
 }

@@ -2,7 +2,11 @@
 <head>
 
     <!-- Libraries -->
-    <script src="bower_components/three.js/build/three.js"></script>
+    <script src="bower_components/three.js/three.min.js"></script>
+    <script src="bower_components/requestAnimationFrame/app/requestAnimationFrame.js"></script>
+
+    <!-- CSS -->
+    <link rel=stylesheet" href="assets/css/theme.css" >
 
     <!-- JS -->
     <script src="functions/webglFunctions.js"></script>
@@ -10,10 +14,16 @@
 
 </head>
 
-<body onLoad="onLoad();">
-    <div id="container" style="width:500px; height:500px; background-color:#000000">
+<body onload="renderAll()" style="">
+
+    <div id="containerCube" style="width:80%; height:70%; position:absolute; background-color:lightgray;">
 
     </div>
+
+    <div id="prompt" style="width:95%; height:35%; bottom:0; position:absolute;">
+        Click the cube.
+    </div>
+
 </body>
 
 

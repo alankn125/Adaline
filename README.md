@@ -7,7 +7,7 @@ This repo will be used as my self learning project on computer simulation with a
 
 ###Mac
 
-Navigate to same direction in terminal
+Navigate to same directory in terminal
 
 ```
 bower init
